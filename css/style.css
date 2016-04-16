@@ -49,7 +49,8 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../../images/pickup_background.jpg") fixed no-repeat center center;
   background-size: cover;
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  font-size: 14px; }
 
 .original {
   width: 100vw;
@@ -72,6 +73,12 @@ body {
   padding-top: 800px;
   line-height: 25px; }
 
+.date {
+  text-align: center; }
+  .date input {
+    color: red; }
+
 footer {
+  padding-top: 200px;
   width: 100vw;
   text-align: center; }

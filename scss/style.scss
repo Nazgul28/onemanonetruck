@@ -8,6 +8,7 @@ body{
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
+	font-size: 14px;
 }
 
 .original{
@@ -34,7 +35,20 @@ body{
     line-height: 25px;
 }
 
+.date{
+	text-align: center;
+	input{
+		color: red;
+	}
+}
+
+
+
+
 footer{ 
+	padding-top: 200px;
+
 	width: 100vw;
+
 	text-align: center;
 }

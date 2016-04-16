@@ -43,4 +43,17 @@ jQuery(document).ready(function($) {
     $window.scroll(function () {
         stickyHead();
     });
+
 });
+
+
+$(document).ready(function() {
+				// console.log("hi");
+				$('#date').datepicker({
+					dateFormat: 'dd-mm-yy',
+        			maxDate: 0,
+        			changeYear: true 
+   					 }).attr('readonly', 'readonly');
+    				$("#date").datepicker("setDate");
+});
+				
