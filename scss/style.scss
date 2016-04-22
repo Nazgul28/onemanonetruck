@@ -35,7 +35,13 @@ body{
     line-height: 25px;
 }
 
-.date{
+
+.container{
+	display: flex;
+	flex-direction: column;
+}
+
+#date{
 	text-align: center;
 	input{
 		color: red;

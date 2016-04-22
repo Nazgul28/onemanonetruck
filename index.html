@@ -30,10 +30,22 @@
 	</div>
 
 
-
+<!-- 
 	<div class="date"> 
-	<input id="date" size="10" type="text"/>
+	<input id="date" size="10" type="text"/> -->
 
+<div class="container">
+	<div class="form">
+	<form method="post" name="myemailform" action="form-to-rmail.php">
+	Enter Name: <input type= "text" name="name">
+	Enter Your Email <input type="text" name="email">
+	Enter Pickup date and time <input id="date" size="10" type="text"/>
+	Enter Drop-off date and time  <input id="date2" size="10" type="text"/>
+	Describe what you need to transport: <textarea name="description"></textarea>
+	<input type="submit" value="Send Form">
+	</form>
+</div>
+</div>
 
 	<footer>
 

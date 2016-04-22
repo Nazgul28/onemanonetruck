@@ -73,9 +73,17 @@ body {
   padding-top: 800px;
   line-height: 25px; }
 
-.date {
+.container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+#date {
   text-align: center; }
-  .date input {
+  #date input {
     color: red; }
 
 footer {

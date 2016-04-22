@@ -55,5 +55,13 @@ $(document).ready(function() {
         			changeYear: true 
    					 }).attr('readonly', 'readonly');
     				$("#date").datepicker("setDate");
+
+    			$('#date2').datepicker({
+					dateFormat: 'dd-mm-yy',
+        			maxDate: 0,
+        			changeYear: true 
+   					 }).attr('readonly', 'readonly');
+    				$("#date2").datepicker("setDate");
+
 });
 				
