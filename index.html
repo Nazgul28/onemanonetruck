@@ -38,11 +38,13 @@
 	<div class="form">
 	<form method="post" name="myemailform" action="form-to-email.php">
 	<div class="container">
-	Enter Name: <input type= "text" name="name">
-	Enter Your Email <input type="text" name="email">
-	Enter Pickup date and time <input id="date" size="10" type="text"/>
-	Enter Drop-off date and time  <input id="date2" size="10" type="text"/>
-	Describe what you need to transport: <textarea name="description"></textarea>
+	Enter Name: <input type= "text" name="name" placeholder="Full name"/>
+	Enter Your Email: <input type="text" name="email" placeholder="@"/>
+	Phone Number: <input type="text" name="phone" placeholder="(xxx) xxx xxxx"/>
+	Enter Pick up date and time: <input id="date" size="10" type="text" placeholder="When?"/>
+	Pickup Address: <input type="text" name="pickup" placeholder="Street/Ave, City, Zipcode"/>
+	Drop-off Address: <input type="text" name="drop-off" placeholder="Street/Ave, City, Zipcode"/>
+	Items: <textarea name="description" placeholder="What do you need to transport? How many items? What size?..."></textarea>
 	<a href="#"> <input type="submit" value="Submit" class="formbutton"> </a>
 	</div>
 	</form>

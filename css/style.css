@@ -94,8 +94,8 @@ body {
       padding: 5px;
       background: white; }
     .form .container textarea {
-      width: 50%;
-      padding: 25px;
+      width: 49%;
+      padding: 10px;
       background: white; }
     .form .container a input:hover {
       color: yellow; }
@@ -112,9 +112,7 @@ body {
       margin-left: 12rem; }
 
 #date {
-  text-align: center; }
-  #date input {
-    color: red; }
+  text-align: left; }
 
 footer {
   padding-top: 200px;
