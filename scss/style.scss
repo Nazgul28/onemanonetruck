@@ -27,7 +27,11 @@ body{
 
 .fixed-header{
 	position: fixed;
+	background: rgba(0, 0, 0, 0.7);
+	transition: background-color 0.9s ease;
+	opacity: 0.9;
 }
+
 .about{
 	color: white;
 	text-align: center;
