@@ -42,7 +42,7 @@ body{
 
 .form{
 color: yellow;
-padding-left: 30rem;
+padding-left: 28rem;
 line-height: 35px;
 font-size: 16px;
 
@@ -88,12 +88,17 @@ font-size: 16px;
 
 
 
-
-
 footer{ 
-	padding-top: 200px;
-
+	padding-top: 50px;
 	width: 100vw;
-
 	text-align: center;
+	.socialmedia i {
+		color: yellow;
+		font-size: 20px;
+		padding-bottom: 15px;
+	}
+	.credits{
+		color: white;
+		padding-bottom: 15px;
+	}
 }
