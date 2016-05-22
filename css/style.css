@@ -137,3 +137,11 @@ footer {
   footer .credits {
     color: white;
     padding-bottom: 15px; }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 580px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background: red; }
+  .form {
+    color: yellow;
+    line-height: 35px;
+    font-size: 16px; } }
