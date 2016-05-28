@@ -144,4 +144,20 @@ footer {
   .form {
     color: yellow;
     line-height: 35px;
-    font-size: 16px; } }
+    font-size: 16px; }
+  .original {
+    width: 100vw;
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+    padding-top: 25px;
+    line-height: 35px; }
+    .original h1 {
+      text-transform: uppercase; }
+    .original h3 {
+      display: none; }
+  .fixed-header {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    transition: background-color 0.9s ease;
+    opacity: 0.9; } }
